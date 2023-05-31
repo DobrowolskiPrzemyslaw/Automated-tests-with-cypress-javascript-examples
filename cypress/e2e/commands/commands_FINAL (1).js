@@ -21,7 +21,7 @@
 // Cypress.Commands.add("dismiss", { prevSubject: 'optional'}, (subject, options) => { ... })
 Cypress.Commands.add("selectProduct", productName => {
     cy.get(".fixed_wrapper .prdocutname").each(($el, index, $list) => {
-        if($el.text().includes(productName)) {
+        if ($el.text().includes(productName)) {
             cy.wrap($el).click()
         }
     });
@@ -29,7 +29,7 @@ Cypress.Commands.add("selectProduct", productName => {
 
 Cypress.Commands.add("addProductToBasket", productName => {
     cy.get(".fixed_wrapper .prdocutname").each(($el, index, $list) => {
-        if($el.text() === productName) {
+        if ($el.text() === productName) {
             cy.log($el.text())
             cy.get('.productcart').eq(index).click();
         }

@@ -1,0 +1,3 @@
+https://docs.cypress.io/guides/core-concepts/dashboard-service.html#Overview
+
+./node_modules/.bin/cypress run --record --key keyId

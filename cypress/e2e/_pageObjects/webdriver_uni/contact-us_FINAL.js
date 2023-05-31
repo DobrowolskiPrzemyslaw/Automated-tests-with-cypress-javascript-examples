@@ -1,4 +1,4 @@
-import Homepage_PO from '../../support/pageObjects/webdriver-uni/Homepage_PO'
+import Homepage_PO from 'C:/Users/User/Desktop/cypress-automation-framework/cypress/support/_pageObjects/webdriver_uni/Homepage_PO'
 /// <reference types="cypress" />
 
 describe("Test Contact Us form via WebdriverUni", () => {
@@ -14,7 +14,7 @@ describe("Test Contact Us form via WebdriverUni", () => {
     //cy.visit("http://webdriveruniversity.com/")
     //cy.get('#contact-us').invoke('removeAttr', 'target').click({ force: true })
     const homepage_PO = new Homepage_PO();
-    homepage_PO.visitHompage();
+    homepage_PO.visitHomepage();
     homepage_PO.clickOn_ContactUs_Button();
   });
 

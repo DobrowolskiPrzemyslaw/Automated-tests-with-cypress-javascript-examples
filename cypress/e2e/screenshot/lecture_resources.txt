@@ -1,0 +1,4 @@
+https://docs.cypress.io/guides/references/configuration#Screenshots
+
+To trigger webdriveruniversity contact us test via terminal window:
+./node_modules/.bin/cypress run --spec cypress/e2e/webdriver-uni/contact-us.js

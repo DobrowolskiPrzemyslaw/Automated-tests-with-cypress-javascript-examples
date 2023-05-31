@@ -1,0 +1,5 @@
+https://docs.cypress.io/guides/tooling/reporters.html#Multiple-reporters
+https://dashboard.cypress.io/login
+
+npx cypress run --record --key uniqueKey
+npm run triggerAllTests-headless

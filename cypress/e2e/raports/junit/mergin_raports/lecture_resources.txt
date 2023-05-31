@@ -1,0 +1,1 @@
+npx junit-merge -d cypress/results/junit -o cypress/results/junit/results.xml

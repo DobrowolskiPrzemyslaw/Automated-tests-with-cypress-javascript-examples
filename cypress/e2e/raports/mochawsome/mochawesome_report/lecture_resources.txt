@@ -1,0 +1,2 @@
+https://www.npmjs.com/package/mochawesome-report-generator
+https://docs.cypress.io/guides/tooling/reporters.html#Multiple-reporters
